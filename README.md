@@ -35,7 +35,7 @@ At this point, we can send our requests via GET method convert:
 
 - open a browser (or equivalent, via wget or curl)
 - write the request with your desired parameters:
-    http://localhost:5000/convert/<amount>/<source_currency>/<destination_currency>/<reference_date>
+    http://localhost:5000/convert/<:amount>/<:source_currency>/<:destination_currency>/<:reference_date>
 
     for example:
 
